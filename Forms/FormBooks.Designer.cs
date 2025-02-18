@@ -60,6 +60,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add a book";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
             // 
@@ -69,6 +70,7 @@
             this.btnEdit.TabIndex = 3;
             this.btnEdit.Text = "Edit a book";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnRemove
             // 
@@ -78,6 +80,7 @@
             this.btnRemove.TabIndex = 4;
             this.btnRemove.Text = "Remove a book";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // FormBooks
             // 
@@ -93,6 +96,7 @@
             this.Name = "FormBooks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormBooks";
+            this.Load += new System.EventHandler(this.FormBooks_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

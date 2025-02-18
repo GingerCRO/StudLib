@@ -113,6 +113,7 @@
             this.btnOK.TabIndex = 8;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // FormLoanDetails
             // 
@@ -132,6 +133,7 @@
             this.Name = "FormLoanDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loan details";
+            this.Load += new System.EventHandler(this.FormLoanDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

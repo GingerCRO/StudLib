@@ -129,6 +129,7 @@
             this.btnOK.TabIndex = 10;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // FormBookDetails
             // 
@@ -150,6 +151,7 @@
             this.Name = "FormBookDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormBookDetails";
+            this.Load += new System.EventHandler(this.FormBookDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

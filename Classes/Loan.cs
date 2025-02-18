@@ -25,12 +25,7 @@ namespace StudentLibrary.Classes
         public int CompareTo(Loan other)
         {
             
-            int result = Student.CompareTo(other.Student);
-
-            if (result == 0)
-            {
-                result = Book.CompareTo(other.Book);
-            }
+            int result = ReturnDate.CompareTo(other.ReturnDate);
 
             return result;
 

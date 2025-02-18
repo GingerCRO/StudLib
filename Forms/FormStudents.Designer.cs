@@ -60,6 +60,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add a student";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
             // 
@@ -69,6 +70,7 @@
             this.btnEdit.TabIndex = 3;
             this.btnEdit.Text = "Edit a student";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnRemove
             // 
@@ -78,6 +80,7 @@
             this.btnRemove.TabIndex = 4;
             this.btnRemove.Text = "Remove a student";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // FormStudents
             // 
@@ -93,6 +96,7 @@
             this.Name = "FormStudents";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Students";
+            this.Load += new System.EventHandler(this.FormStudents_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

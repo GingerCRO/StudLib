@@ -55,12 +55,14 @@
             this.btnStudents.Name = "btnStudents";
             this.btnStudents.Size = new System.Drawing.Size(65, 20);
             this.btnStudents.Text = "Students";
+            this.btnStudents.Click += new System.EventHandler(this.btnStudents_Click);
             // 
             // btnBooks
             // 
             this.btnBooks.Name = "btnBooks";
             this.btnBooks.Size = new System.Drawing.Size(51, 20);
             this.btnBooks.Text = "Books";
+            this.btnBooks.Click += new System.EventHandler(this.btnBooks_Click);
             // 
             // label1
             // 
@@ -87,6 +89,7 @@
             this.btnBorrow.TabIndex = 3;
             this.btnBorrow.Text = "Borrow a book";
             this.btnBorrow.UseVisualStyleBackColor = true;
+            this.btnBorrow.Click += new System.EventHandler(this.btnBorrow_Click);
             // 
             // btnEdit
             // 
@@ -96,6 +99,7 @@
             this.btnEdit.TabIndex = 4;
             this.btnEdit.Text = "Edit a book";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnReturn
             // 
@@ -105,6 +109,7 @@
             this.btnReturn.TabIndex = 5;
             this.btnReturn.Text = "Return a book";
             this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // FormLoans
             // 
@@ -122,6 +127,7 @@
             this.Name = "FormLoans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Library App v1.0";
+            this.Load += new System.EventHandler(this.FormLoans_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
