@@ -33,7 +33,7 @@ namespace StudentLibrary.Classes
 
         public override string ToString()
         {
-            return Student.Name + ", " + Book.Title + ": " + LoanDate.ToString() + " - " + ReturnDate.ToString();
+            return "Student: " + Student.Name + " " + Student.Surname + ", " + "Book: " + Book.Title + ", " + "Return date: " + ReturnDate.ToShortDateString();
         }
 
     }
