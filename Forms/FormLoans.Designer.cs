@@ -46,7 +46,7 @@
             this.btnBooks});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(529, 24);
+            this.menuStrip.Size = new System.Drawing.Size(651, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -78,12 +78,12 @@
             this.lbLoans.FormattingEnabled = true;
             this.lbLoans.Location = new System.Drawing.Point(15, 49);
             this.lbLoans.Name = "lbLoans";
-            this.lbLoans.Size = new System.Drawing.Size(389, 290);
+            this.lbLoans.Size = new System.Drawing.Size(534, 290);
             this.lbLoans.TabIndex = 2;
             // 
             // btnBorrow
             // 
-            this.btnBorrow.Location = new System.Drawing.Point(423, 49);
+            this.btnBorrow.Location = new System.Drawing.Point(555, 49);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.Size = new System.Drawing.Size(88, 23);
             this.btnBorrow.TabIndex = 3;
@@ -93,17 +93,17 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(423, 78);
+            this.btnEdit.Location = new System.Drawing.Point(555, 78);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(88, 23);
             this.btnEdit.TabIndex = 4;
-            this.btnEdit.Text = "Edit a book";
+            this.btnEdit.Text = "Edit a loan";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnReturn
             // 
-            this.btnReturn.Location = new System.Drawing.Point(423, 107);
+            this.btnReturn.Location = new System.Drawing.Point(555, 107);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(88, 23);
             this.btnReturn.TabIndex = 5;
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 357);
+            this.ClientSize = new System.Drawing.Size(651, 357);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnBorrow);
